@@ -9,7 +9,7 @@ Author URI: https://github.com/racmanuel
 add_action("admin_menu", "plugin_menu");
 
 function plugin_menu() {
-  add_menu_page('Tag Marketing', 'Tag Marketing', 'manage_options', 'menu_config_pie', 'registrar_tags', 'dashicons-code-standards');
+  add_menu_page('Tag Marketing', 'Tag Marketing', 'manage_options', 'tag_marketing', 'registrar_tags', 'dashicons-code-standards');
 }
 
 function registrar_tags() {
