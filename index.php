@@ -61,7 +61,7 @@ function agregar_en_head() {
   <img height="1" width="1" src="https://www.facebook.com/tr?id='<?php echo $pixel_fb?>'&ev=PageView
 &noscript=1" />
 </noscript>
-<!-- End Facebook Pixel Code --
+<!-- End Facebook Pixel Code -->
     <?php
   }
 }
