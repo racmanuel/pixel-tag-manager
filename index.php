@@ -1,19 +1,29 @@
 <?php
 /*
-Plugin Name: Tag Marketing
-Description: Crea un menú de configuración para que insertes los ID de tu Pixel de Facebook y Google Analytics, Google Tag Manager
-Author: Manuel Ramírez Coronel
-Author URI: https://github.com/racmanuel
+ * Plugin Name: WordPress Tag Manager
+ * Description: Crea un menú de configuración para que insertes los ID de tu Pixel de Facebook y Google Analytics, Google Tag Manager
+ * Author: Manuel Ramírez Coronel
+ * Author URI: https://github.com/racmanuel
+ * Version: 1.0
+ * Requires at least: 5.2
+ * Requires PHP: 7.2
+ * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 add_action("admin_menu", "plugin_menu");
 
 function plugin_menu() {
-  add_menu_page('Tag Marketing', 'Tag Marketing', 'manage_options', 'tag_marketing', 'registrar_tags', 'dashicons-code-standards');
+  add_options_page(
+    'WordPress Tag Manager', 
+    'WordPress Tag Manager', 
+    'manage_options', 
+    'wordpress_tag_manager', 
+    'registrar_tags'
+  );
 }
 
-function registrar_tags() {
-  //must check that the user has the required capability 
+function registrar_tags() { 
   if (!current_user_can('manage_options')){
         wp_die( __('You do not have sufficient permissions to access this page.') );
   }else{

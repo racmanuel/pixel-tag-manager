@@ -8,3 +8,6 @@
     <input type="submit" class="button-primary" value="Guardar">
   </p>
 </form>
+<footer>
+<p>Hecho con <a href="https://wordpress.org/">WordPress</a></p>
+</footer>
