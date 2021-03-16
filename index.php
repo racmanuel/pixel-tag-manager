@@ -1,7 +1,7 @@
 <?php
 /*
- * Plugin Name: WordPress Tag Manager
- * Description: This plugin provides an easy way to add Facebook Pixel tracking code to your WordPress Site.
+ * Plugin Name: WP Tag Manager
+ * Description: This plugin provides an easy way to add Facebook Pixel tracking code to your site.
  * Author: Manuel Ramírez Coronel
  * Author URI: https://github.com/racmanuel
  * Version: 1.0
@@ -15,10 +15,10 @@ add_action("admin_menu", "plugin_menu");
 
 function plugin_menu() {
   add_options_page(
-    'WordPress Tag Manager', 
-    'WordPress Tag Manager', 
+    'WP Tag Manager', 
+    'WP Tag Manager', 
     'manage_options', 
-    'wordpress_tag_manager', 
+    'wp_tag_manager', 
     'registrar_tags'
   );
 }
