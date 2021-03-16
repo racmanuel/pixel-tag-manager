@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: WordPress Tag Manager
- * Description: Crea un menú de configuración para que insertes los ID de tu Pixel de Facebook y Google Analytics, Google Tag Manager
+ * Description: This plugin provides an easy way to add Facebook Pixel tracking code to your WordPress Site.
  * Author: Manuel Ramírez Coronel
  * Author URI: https://github.com/racmanuel
  * Version: 1.0
