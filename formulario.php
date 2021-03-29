@@ -1,4 +1,4 @@
-<h1 class="wrapper">Configuración de Tag</h1>
+<h1 class="wrapper">Configuración de Facebook Pixel</h1>
 <form method="post">
   <p>
     Identificador del píxel de Facebook:

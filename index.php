@@ -15,10 +15,10 @@ add_action("admin_menu", "plugin_menu");
 
 function plugin_menu() {
   add_options_page(
-    'Tag Manager', 
-    'Tag Manager', 
+    'Pixel de Facebook', 
+    'Pixel de Facebook', 
     'manage_options', 
-    'tag_manager', 
+    'pixel_facebook', 
     'registrar_tags'
   );
 }
