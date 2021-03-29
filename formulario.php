@@ -1,7 +1,7 @@
-<h1 class="wrapper">Configuración de Facebook Pixel</h1>
+<h1 class="wrapper">Configuración de Pixel</h1>
 <form method="post">
   <p>
-    Identificador del píxel de Facebook:
+    Identificador del píxel:
     <input type="text" name="ID_Pixel_FB" value="<?php echo ($valor_option = get_option('Pixel_FB'))? $valor_option : ''; ?>">
   </p>
   <p>
