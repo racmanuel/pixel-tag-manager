@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Tag Manager
+ * Plugin Name: Facebook Pixel - Tag Manager
  * Description: This plugin provides an easy way to add Facebook Pixel tracking code to your site.
  * Author: Manuel Ramírez Coronel
  * Author URI: https://github.com/racmanuel
